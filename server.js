@@ -1,7 +1,6 @@
 import { createServer } from 'http';
 import { readFileSync } from 'fs';
 import { Server } from 'socket.io';
-import { createId } from '@paralleldrive/cuid2';
 
 // ─── Static file serving ─────────────────────────────────────────
 const httpServer = createServer((req, res) => {
